@@ -1,11 +1,11 @@
-# revision 27767
+# revision 31768
 # category Package
 # catalog-ctan /macros/latex/contrib/resphilosophica
-# catalog-date 2012-09-21 08:52:41 +0200
+# catalog-date 2013-09-26 00:40:11 +0200
 # catalog-license lppl1.3
-# catalog-version 1.10
+# catalog-version 1.15
 Name:		texlive-resphilosophica
-Version:	1.10
+Version:	1.15
 Release:	1
 Summary:	Typeset articles for the journal Res Philosophica
 Group:		Publishing
