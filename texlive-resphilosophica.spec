@@ -6,7 +6,7 @@
 # catalog-version 1.15
 Name:		texlive-resphilosophica
 Version:	1.15
-Release:	3
+Release:	4
 Summary:	Typeset articles for the journal Res Philosophica
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/resphilosophica
