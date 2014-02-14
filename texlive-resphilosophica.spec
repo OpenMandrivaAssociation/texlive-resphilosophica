@@ -1,12 +1,12 @@
-# revision 31768
+# revision 32874
 # category Package
 # catalog-ctan /macros/latex/contrib/resphilosophica
-# catalog-date 2013-09-26 00:40:11 +0200
+# catalog-date 2014-02-05 19:42:21 +0100
 # catalog-license lppl1.3
-# catalog-version 1.15
+# catalog-version 1.19
 Name:		texlive-resphilosophica
-Version:	1.15
-Release:	5
+Version:	1.19
+Release:	1
 Summary:	Typeset articles for the journal Res Philosophica
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/resphilosophica
