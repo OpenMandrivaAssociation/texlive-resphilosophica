@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version 1.19
 Name:		texlive-resphilosophica
-Version:	1.19
-Release:	5
+Version:	1.31
+Release:	1
 Summary:	Typeset articles for the journal Res Philosophica
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/resphilosophica
