@@ -5,7 +5,7 @@
 # catalog-license lppl1.3
 # catalog-version 1.19
 Name:		texlive-resphilosophica
-Version:	1.31
+Version:	1.32
 Release:	1
 Summary:	Typeset articles for the journal Res Philosophica
 Group:		Publishing
