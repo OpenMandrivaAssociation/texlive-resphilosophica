@@ -1,6 +1,6 @@
 Name:		texlive-resphilosophica
 Version:	50935
-Release:	1
+Release:	2
 Summary:	Typeset articles for the journal Res Philosophica
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/resphilosophica
