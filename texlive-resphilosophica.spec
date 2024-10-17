@@ -3,7 +3,7 @@ Version:	50935
 Release:	2
 Summary:	Typeset articles for the journal Res Philosophica
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/resphilosophica
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/resphilosophica
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/resphilosophica.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/resphilosophica.doc.r%{version}.tar.xz
