@@ -1,46 +1,22 @@
-Name:		texlive-resphilosophica
-Version:	75163
-Release:	1
+%global tl_name resphilosophica
+%global tl_revision 76471
+
+Name:		texlive-%{tl_name}
+Epoch:		1
+Version:	1.39
+Release:	%{tl_revision}.1
 Summary:	Typeset articles for the journal Res Philosophica
 Group:		Publishing
 URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/resphilosophica
-License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/resphilosophica.r%{version}.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/resphilosophica.doc.r%{version}.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/resphilosophica.source.r%{version}.tar.xz
+License:	lppl1.3
+Source0:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/resphilosophica.r%{tl_revision}.tar.xz
+Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/resphilosophica.doc.r%{tl_revision}.tar.xz
+Source2:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/resphilosophica.source.r%{tl_revision}.tar.xz
 BuildArch:	noarch
-BuildRequires:	texlive-tlpkg
-Requires(pre):	texlive-tlpkg
-Requires(post):	texlive-kpathsea
+BuildSystem:	texlive
+Provides:	texlive(%{tl_name}) = %{tl_revision}
 
 %description
-Th bundle provides a class for typesetting articles for the
-journal Res Philosophica. Development was commissioned by Saint
-Louis University.
+The bundle provides a class for typesetting articles for the journal Res
+Philosophica. This work was commissioned by the Saint Louis University.
 
-%post
-%{_sbindir}/texlive.post
-
-%postun
-if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-fi
-
-#-----------------------------------------------------------------------
-%files
-%{_texmfdistdir}/bibtex/bst/resphilosophica
-%{_texmfdistdir}/tex/latex/resphilosophica
-%doc %{_texmfdistdir}/doc/latex/resphilosophica
-#- source
-%doc %{_texmfdistdir}/source/latex/resphilosophica
-
-#-----------------------------------------------------------------------
-%prep
-%setup -c -a1 -a2
-%autopatch -p1
-
-%build
-
-%install
-mkdir -p %{buildroot}%{_texmfdistdir}
-cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
