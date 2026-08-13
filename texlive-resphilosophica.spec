@@ -1,9 +1,10 @@
 %global tl_name resphilosophica
-%global tl_revision 76471
+%global tl_revision 79936
+%global tl_version 1.40
 
 Name:		texlive-%{tl_name}
 Epoch:		1
-Version:	1.39
+Version:	%{tl_version}
 Release:	%{tl_revision}.1
 Summary:	Typeset articles for the journal Res Philosophica
 Group:		Publishing
@@ -14,7 +15,7 @@ Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/resphilosophica.
 Source2:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/resphilosophica.source.r%{tl_revision}.tar.xz
 BuildArch:	noarch
 BuildSystem:	texlive
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 The bundle provides a class for typesetting articles for the journal Res
